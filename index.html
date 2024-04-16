@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet">
+  </head>
+  <body class="bg-gray-200 p-4">
+    <div id="app" class="max-w-md mx-auto">
+      <h1 class="text-2xl font-bold mb-4">Task Management</h1>
+      <input type="text" class="w-full border rounded-md px-3 py-2 mb-4"
+        placeholder="Add a new task" id="taskInput">
+      <button
+        class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+        id="addTaskBtn">Add Task</button>
+      <ul id="taskList" class="mt-4">
+      </ul>
+    </div>
+    <!-- index.html (lanjutan) -->
+    <div id="app" class="max-w-md mx-auto">
+      <!-- Existing HTML code -->
+      <button
+        class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+        id="toggleAllBtn">Toggle All</button>
+      <button
+        class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded"
+        id="clearCompletedBtn">Clear Completed</button>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
